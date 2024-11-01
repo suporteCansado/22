@@ -22,19 +22,12 @@ header img{
   align-items: center;
   display: inline-flex;
   width: 100%;
+  padding-top: 3px;
 }
 .sectionsItens{
   display: inline-block;
   padding: 20px 90px;
   cursor:pointer;
-}
-.sectionsItens:before,
-.sectionsItens:after{
-  content: "";
-  position:absolute;
-  top: 0;
-  border-style: solid;
-
 }
 .sectionsItens:hover{
   background-color: #e62429;
