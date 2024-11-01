@@ -34,7 +34,7 @@ header img{
   position:absolute;
   top: 0;
   border-style: solid;
-  
+
 }
 .sectionsItens:hover{
   background-color: #e62429;
@@ -49,7 +49,7 @@ header img{
 }
 }
 
-div span#sectionsTitle{
+div span.sectionsTitle{
   font-weight: bold;
   text-transform: uppercase;
 }
