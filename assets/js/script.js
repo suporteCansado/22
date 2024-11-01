@@ -1,1 +1,3 @@
-console.log("funcionando")
+const showCharacters = ()=>{
+    
+}
