@@ -1,0 +1,58 @@
+section{
+    display:none;
+  }
+  
+  section h1.characterName{
+    justify-self: center;
+    font-size: 50px;
+    font-family: oswald;
+  }
+  
+  section.active{
+    display: block;
+  }
+  
+  div.container .sectionLeftSide{
+    display: flex;
+  }
+  
+  .sectionsContainer{
+    justify-content: center;
+    display: flex;
+    flex: wrap;
+    align-items: center;
+    display: inline-flex;
+    width: 100vw;
+    padding-top: 3px;
+  }
+  
+  .sectionsItens{
+    display: inline-block;
+    padding: 20px 90px;
+    cursor:pointer;
+    clip-path: polygon(20% 0%, 100% 0%, 80% 100%, 0% 100%);
+  }
+  
+  div span.sectionsTitle{
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .sectionsItens:hover{
+    background-color: #e62429;
+  }
+    
+  @media (max-width: 1550px){
+    .sectionsItens{
+      padding: 20px 50px;
+    }
+  }
+  
+  @media (max-width: 1060px){
+  .sectionsContainer{
+    display: flex;
+    flex-direction: column;
+    flex: wrap;
+    padding-top: 10px;
+    }
+  }

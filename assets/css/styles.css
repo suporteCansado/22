@@ -18,72 +18,17 @@ header img{
 .container{
     display: flex;
     align-items: center;
-    width: 100vw;
+    justify-content: center;
+    width: 100%;
 }
 
-section{
-  display:none;
-}
-
-section h1.characterName{
-  justify-self: center;
-  font-size: 50px;
-  font-family: oswald;
-}
-
-section.active{
-  display: block;
-}
-
-.sectionLeftSide{
-  display: flex;
-  justify-content: center;
-  width: 50%;
-}
-
-.sectionsContainer{
-  justify-content: center;
-  display: flex;
-  flex: wrap;
-  align-items: center;
-  display: inline-flex;
-  width: 100vw;
-  padding-top: 3px;
-}
-
-.sectionsItens{
-  display: inline-block;
-  padding: 20px 90px;
-  cursor:pointer;
-  clip-path: polygon(20% 0%, 100% 0%, 80% 100%, 0% 100%);
-}
-
-.sectionsItens:hover{
-  background-color: #e62429;
-}
-
-.section div.descriptionText{
-  display: flex;
-  justify-content: center;
-  width: 50%;
-}
-@media (max-width: 1550px){
-  .sectionsItens{
-    padding: 20px 50px;
+@media (max-width: 750px) {
+  .container{
+    flex-direction: column;
+    flex: wrap;
   }
 }
 
-@media (max-width: 1060px){
-.sectionsContainer{
-  display: flex;
-  flex-direction: column;
-  flex: wrap;
-  padding-top: 10px;
-  }
+.descriptionText{
+  width: 30%;
 }
-
-div span.sectionsTitle{
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
